@@ -115,7 +115,7 @@ Or open [`notebooks/`](notebooks/) to run interactively.
 
 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danieljosephgomez/foundation-model-spatialomics/notebooks/01_visualize_hubmap_data.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danieljosephgomez/ACHILLES/notebooks/01_visualize_hubmap_data.ipynb)
 
 
 
