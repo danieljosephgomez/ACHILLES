@@ -1,0 +1,42 @@
+<<<<<<< HEAD
+torch==2.2.2
+torchvision==0.17.2
+pandas==2.1.1
+numpy
+scanpy>=1.9.3
+squidpy==1.3.1
+napari==0.4.19.post1
+napari-spatialdata
+nico-sc-sp==1.4.0
+scikit-learn==1.3.2
+umap-learn==0.5.5
+matplotlib
+seaborn
+tqdm==4.66.4
+anndata==0.10.6
+h5py==3.11.0
+jupyterlab==4.0.6
+google-cloud-storage==2.16.0
+requests==2.31.0
+pygraphviz==1.11
+pyyaml==6.0.1
+jupyter==1.0.0
+notebook==7.2.0
+ipykernel==6.29.4
+opencv-python==4.9.0.80
+Pillow==10.3.0
+networkx
+statsmodels==0.14.2
+=======
+torch>=2.0.0
+torchvision
+pydantic
+docu
+pandas>=2.0.0
+numpy>=1.23.0
+scikit-learn>=1.2.0
+umap-learn>=0.5.3
+matplotlib  # Optional: for visualizing UMAPs, losses, etc.
+seaborn     # Optional: for better plotting aesthetics
+tqdm        # Optional: progress bars during training
+>>>>>>> 1ae53dcf (git rebase --continueUpdated package)
