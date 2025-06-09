@@ -40,59 +40,6 @@ This repository features:
 
 ---
 
-<<<<<<< HEAD
-
-
-=======
-```mermaid 
-graph TD
-    %% Define Styles
-    classDef process fill:#e0e7ff,stroke:#5c6bc0,stroke-width:2px;
-    classDef data fill:#e8f5e9,stroke:#4caf50,stroke-width:2px,stroke-dasharray: 5 5;
-    classDef artifact fill:#fffde7,stroke:#ffc107,stroke-width:2px;
-    classDef choice fill:#fbe9e7,stroke:#ff5722,stroke-width:2px;
-
-    %% STAGE 0: The Choice
-    A{Use Synthetic or Real Data?};
-    class A choice;
-
-    A -- "Synthetic" --> P1[run generate_synthetic_data.py];
-    A -- "Real CZI" --> P2[run download_from_czi.py];
-    
-    %% STAGE 1: Data Acquisition
-    subgraph "1. Data Acquisition"
-        direction LR
-        P1; P2;
-    end
-    
-    P1 --> D1[/Gene Expression Matrix/];
-    P2 --> D1;
-
-    %% STAGE 2: Model Training
-    subgraph "2. Foundation Model Training"
-        P3[run train_model.py];
-    end
-
-    D1 -- "Training Dataset" --> P3;
-    P3 --> M1[📦 foundation_model.pth];
-    class M1 artifact;
-
-    %% STAGE 3: Evaluation
-    subgraph "3. Evaluation & Insight Mining"
-        P4[run evaluate_latent_space.py];
-    end
-
-    D1 -- "Test Dataset" --> P4;
-    M1 -- "Trained Model" --> P4;
-
-    P4 --> F1[📄 latent_umap.png];
-    P4 --> F2[📄 metrics_report.csv];
-    class F1,F2 artifact;
-
-    %% Apply class styles
-    class P1,P2,P3,P4 process;
-    class D1 data;
-```
 
 ---
 >>>>>>> 1ae53dcf (git rebase --continueUpdated package)
@@ -104,9 +51,9 @@ Create environment:
 
 ```bash
 
-conda create -n CytoImmunoMap python=3.11
+conda create -n ACHILLES python=3.11
 
-conda activate CytoImmunoMap
+conda activate ACHILLES 
 
 ```
 
@@ -127,7 +74,6 @@ pip install -r requirements.txt
 
 🧪 10X Genomics Single-Cell and Spatial Data Download with download_10x.py
 ```bash
-python download_10x.py --url https://cf.10xgenomics.com/samples/xenium/1.3.0/Xenium_Preview_Human_Non_diseased_Lung_With_Add_on_FFPE/Xenium_Preview_Human_Non_diseased_Lung_With_Add_on_FFPE_outs.zip --output data/Xenium_Preview_Human_Non_diseased_Lung_With_Add_on_FFPE_outs.zip
 ```
 
 ---
@@ -141,9 +87,6 @@ python download_10x.py --url https://cf.10xgenomics.com/samples/xenium/1.3.0/Xen
 1. **Generate and Map Synthetic, Spatial, and Single-cell Omics Data**
 
     ```bash
-
-    python 
-
     ```
 
 
@@ -152,7 +95,7 @@ python download_10x.py --url https://cf.10xgenomics.com/samples/xenium/1.3.0/Xen
 
     ```bash
 
-    python CytoImmunoMap/train_model.py
+    python ACHILLES/train_model.py
 
     ```
 
