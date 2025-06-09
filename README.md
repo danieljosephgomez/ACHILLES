@@ -26,7 +26,7 @@ This repository features:
 
 - **Therapeutics evaluation metrics** (e.g., ARI, NMI, Silhouette)  
 
-- **Spatial ligand-receptor interaction mapping** 
+- **Spatial ligand-receptor interaction mapping** Spatial ligand-receptor map analysis
 
 - **Visualization** of latent space and clustering results using UMAP and PCA
 
@@ -36,9 +36,6 @@ This repository features:
 
 - **Data download scripts** for 10X Genomics and Vizgen MERSCOPE datasets
 
-
-
----
 
 
 ---
