@@ -1,7 +1,6 @@
 # 🧬 ACHILLES: Foundation Model for Single-cell Spatial Multiomics IO Therapeutics Mapping
 
 
-
 This project simulates high-dimensional single-cell and spatial omics data, building a foundational deep learning model to extract structured insights from noisy biological-like signals. It demonstrates applied AI/ML, deep learning, and statistical analysis in a genomic context—without requiring real biological datasets.
 
 
@@ -17,22 +16,21 @@ This project simulates high-dimensional single-cell and spatial omics data, buil
 This repository features:
 
 
-
 - **Synthetic data generation** for spatial single-cell transcriptomics  
 
 - **Foundation model training** with PyTorch ([Autoencoder](training/train_model.py) / Transformer Encoder)  
 
-- **Latent space embeddings** for clustering and mock ontological insights  
+- **Latent space embeddings** for clustering and embeddings 
 
-- **Therapeutics evaluation metrics** (e.g., ARI, NMI, Silhouette)  
+- **Immuno-Therapeutics evaluation metrics** (e.g., ARI, NMI, F1, Silhouette)  
 
 - **Spatial ligand-receptor interaction mapping** Spatial ligand-receptor map analysis
 
 - **Visualization** of latent space and clustering results using UMAP and PCA
 
-- **Tissue classification** using latent embeddings and random forest classifier
-
 - **Interactive notebooks** for data exploration and visualization
+
+- **Pathway enrichment analysis** for data exploration and visualization
 
 - **Data download scripts** for 10X Genomics and Vizgen MERSCOPE datasets
 
