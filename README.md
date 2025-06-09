@@ -42,7 +42,6 @@ This repository features:
 
 
 ---
->>>>>>> 1ae53dcf (git rebase --continueUpdated package)
 ## 🔧 Setup
 
 
