@@ -71,7 +71,7 @@ pip install -r requirements.txt
 ---
 ---
 
-🧪 10X Genomics Single-Cell and Spatial Data Download with download_10x.py
+🧪 10X Genomics Single-Cell and Spatial Data Download with xenium_dl.py
 ```bash
 ```
 
