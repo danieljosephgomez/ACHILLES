@@ -1,7 +1,7 @@
 # ⚔️🛡️ ACHILLES: Foundation Model for Single-cell Spatial Multiomics IO Therapeutics Mapping
 
 
-This project simulates high-dimensional single-cell and spatial omics data, building a foundational deep learning model to extract structured insights from noisy biological-like signals. It demonstrates applied AI/ML, deep learning, and statistical analysis in a genomic and spatial context requiring real biological datasets.
+This foundation model provides phenotypic information high-dimensional single-cell and spatial omics data, and is built to discover novel cell states and do in silico experimentation. It applies AI/ML, deep learning, and statistical geometrical analysis in a phenotypic and spatial information that requires preview and consortia biological datasets.
 
 
 
