@@ -1,4 +1,4 @@
-# ⚔️🛡️ ACHILLES: Foundation Model for Single-cell Spatial Multiomics IO Therapeutics Mapping
+# ⚔️🛡️ ACHILLES: Foundation Model for Multiplex imaging and Single-cell Spatial Multiomics for IO Therapeutics Mapping
 
 
 This foundation model provides phenotypic information high-dimensional single-cell and spatial omics data, and is built to discover novel cell states and do in silico experimentation. It applies AI/ML, deep learning, and statistical geometrical analysis in a phenotypic and spatial information that requires preview and consortia biological datasets.
