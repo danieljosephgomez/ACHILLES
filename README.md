@@ -1,4 +1,4 @@
-# 🧬 ACHILLES: Foundation Model for Single-cell Spatial Multiomics IO Therapeutics Mapping
+# ⚔️🛡️ ACHILLES: Foundation Model for Single-cell Spatial Multiomics IO Therapeutics Mapping
 
 
 This project simulates high-dimensional single-cell and spatial omics data, building a foundational deep learning model to extract structured insights from noisy biological-like signals. It demonstrates applied AI/ML, deep learning, and statistical analysis in a genomic and spatial context requiring real biological datasets.
@@ -56,9 +56,7 @@ conda activate ACHILLES
 Install dependencies:
 
 ```bash
-
 pip install -r requirements.txt
-
 ```
 
 
@@ -66,7 +64,7 @@ pip install -r requirements.txt
 ---
 ---
 
-🧪 10X Genomics Single-Cell and Spatial Data Download with xenium_dl.py
+🪓 10X Genomics Single-Cell and Spatial Data Download with xenium_dl.py
 ```bash
 ```
 
@@ -88,9 +86,7 @@ pip install -r requirements.txt
 2. **Train Foundation Model**
 
     ```bash
-
     python ACHILLES/train_model.py
-
     ```
 
 
@@ -98,9 +94,7 @@ pip install -r requirements.txt
 3. **Evaluate Latent Embeddings**
 
     ```bash
-
     python evaluation/evaluate_latent_space.py
-
     ```
 
 
@@ -109,7 +103,7 @@ Or open [`notebooks/`](notebooks/) to run interactively.
 
 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danieljosephgomez/ACHILLES/notebooks/01_visualize_hubmap_data.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danjoegomez/ACHILLES/notebooks/01_visualize_hubmap_data.ipynb)
 
 
 
@@ -187,7 +181,7 @@ Or open [`notebooks/`](notebooks/) to run interactively.
 
 
 
-## 🧬 Tissue/Region Classification
+## 🧬 Tissue/Region Classification 
 
 
 
@@ -215,11 +209,7 @@ python tissue_classification.py \
 
 ## 📜 License
 
-
-
 MIT License
-
-<<<<<<< HEAD
 
 
 ---
@@ -233,4 +223,3 @@ MIT License
 👤 Author
 Daniel J. Gomez
 [sfdanielgomez@gmail.com | https://www.linkedin.com/in/danieljgomez1]
->>>>>>> 1ae53dcf (git rebase --continueUpdated package)
