@@ -65,8 +65,8 @@ pip install -r requirements.txt
 
 🪓 10X Genomics Single-Cell and Spatial Data Download with xenium_dl.py
 ```bash
+python xenium_dl.py --preset ['brain','lung','kidney']
 ```
-
 ---
 
 
