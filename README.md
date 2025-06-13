@@ -16,7 +16,7 @@ This foundation model provides phenotypic information high-dimensional single-ce
 This repository features:
 
 
-- **Synthetic data generation** for spatial single-cell transcriptomics  
+- **Data generation** for spatial single-cell transcriptomics  
 
 - **Foundation model training** with PyTorch ([Autoencoder](training/train_model.py) / Transformer Encoder)  
 
@@ -24,16 +24,15 @@ This repository features:
 
 - **Immuno-Therapeutics evaluation metrics** (e.g., ARI, NMI, F1, Silhouette)  
 
-- **Spatial ligand-receptor interaction mapping** Spatial ligand-receptor map analysis
+- **Spatial information** Spatial transcriptomics
 
-- **Visualization** of latent space and clustering results using UMAP and PCA
+- **Visualization of Spatial subcellular molecular localization and Phenotypic information** of latent space and clustering results using image science and dimension reduction
 
 - **Interactive notebooks** for data exploration and visualization
 
-- **Pathway enrichment analysis** for data exploration and visualization
+- **LRI and Pathway enrichment analysis** for data exploration and visualization
 
-- **Data download scripts** for 10X Genomics and Vizgen MERSCOPE datasets
-
+- **Data download scripts** for 10X Genomics Xenium, Visium, Cell VDJ, and Vizgen MERSCOPE datasets
 
 
 ---
